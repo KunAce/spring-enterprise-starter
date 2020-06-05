@@ -22,7 +22,7 @@ public class SwaggerConfig {
                 .build().apiInfo(new ApiInfoBuilder()
                 .description("This is the API Testing Documentation")
                 .contact(new Contact("javauser",
-                        "Https://github.com/",
+                        "https://github.com/",
                         "test@example.com"))
                 .version("v1.0")
                 .title("API Testing Documentation")
