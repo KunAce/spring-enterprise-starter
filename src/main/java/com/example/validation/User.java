@@ -12,7 +12,7 @@ public class User {
     @DecimalMax(value = "200", message = "{user.age.size}")
     private Integer age;
     @Email(message = "{user.email.pattern}")
-    @NotNull(message = "{user.email.notnull")
+    @NotNull(message = "{user.email.notnull}")
     private String email;
 
     public Integer getId() {

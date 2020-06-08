@@ -17,7 +17,7 @@ public class UserController {
         if (result.hasErrors()) {
             List<ObjectError> allErrors = result.getAllErrors();
             for (ObjectError error: allErrors) {
-                errors.add(error.getObjectName());
+                errors.add(error.getDefaultMessage());
             }
         }
         return errors;
